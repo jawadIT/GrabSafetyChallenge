@@ -16,21 +16,22 @@ speed : this is speed in mts/sec. summation of all row values for a given trip w
 
 FEATURE GENERATION : 
 
-Total Distance of Trip in KM's
+Basic Features :
+                    Total Distance of Trip in KM's
 
-Total Time taken for the Trip in Hrs
+                    Total Time taken for the Trip in Hrs
 
-Each trip to be grouped by change in direction of trip and below features are calculated for each direction change 
+                    Each trip to be grouped by change in direction of trip and below features are calculated for each direction change 
 
-distance travelled
+                    distance travelled
 
-time taken 
+                    time taken 
 
-speed of travel
+                    speed of travel
 
-magnitude of accelaration [square root of sum of squares of accelaration mts/sec square in x,y and z axis]
+                    magnitude of accelaration [square root of sum of squares of accelaration mts/sec square in x,y and z axis]
 
-degree of rotation [multipying rad/sec with fixed value 57.3]
+                    degree of rotation [multipying rad/sec with fixed value 57.3]
 
 
 
