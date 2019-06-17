@@ -63,8 +63,8 @@ Directional Change is sensed using the grouping of bookingID, Bearing and accura
 
 some other features could be calculated by further mining the data
 
-are there a traffic points , if so how many [the seconds where speed is 0 mts/sec]
+                        are there a traffic points , if so how many [the seconds where speed is 0 mts/sec]
 
-how the traffic is impacting the total trip duration
+                        how the traffic is impacting the total trip duration
 
-are trips with lower traffic prone to be unsafe 
+                        are trips with lower traffic prone to be unsafe 
