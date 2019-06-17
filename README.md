@@ -45,7 +45,7 @@ Directional Change is sensed using the grouping of bookingID, Bearing and accura
 
 *these three fields are taken for grouping assuming that the change in bearing and accuracy can happen mostly due to change in vehicle poistion with respect to destination , traffic etc
 
-some other features could be calculated by further mining the data 
+some other features could be calculated by further mining the data
 
 are there a traffic points , if so how many [the seconds where speed is 0 mts/sec]
 how the traffic is impacting the total trip duration
