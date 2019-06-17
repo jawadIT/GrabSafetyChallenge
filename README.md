@@ -6,13 +6,13 @@ safe / not-safe : is with respect to driving behaviour , type of route
 
 DATA : Data is captured by accelaro and gyro meters for every second of a trip 
 
-bookingID : unique id of trip
-accuracy  : accuracy of gps locator [ex: 3 tells GPS reading is accuracte for 3 meters of raidus]
-bearing   : in degrees , this tells the direction of trip in relation to north pole and target destination 
-accelarometer x,y,z axis [mts/sec square] : this data tells the accelaration effect in x,y and z axis. it helps to calculate the magnitude of accelaration
-gyrometer x,y and z axis [rad/sec] : this data will tell the degree of wheel rotation. In this case I am assuming z axis is aligned 
-time : its incremental value . Last row value will be the total time taken in seconds
-speed : this is speed in mts/sec. summation of all row values for a given trip will tell total disctance of trip 
+bookingID : unique id of trip 
+accuracy  : accuracy of gps locator [ex: 3 tells GPS reading is accuracte for 3 meters of raidus] 
+bearing   : in degrees , this tells the direction of trip in relation to north pole and target destination  
+accelarometer x,y,z axis [mts/sec square] : this data tells the accelaration effect in x,y and z axis. it helps to calculate the magnitude of accelaration 
+gyrometer x,y and z axis [rad/sec] : this data will tell the degree of wheel rotation. In this case I am assuming z axis is aligned  
+time : its incremental value . Last row value will be the total time taken in seconds 
+speed : this is speed in mts/sec. summation of all row values for a given trip will tell total disctance of trip  
 
 FEATURE GENERATION : 
 
