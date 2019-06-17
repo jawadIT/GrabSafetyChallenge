@@ -1,0 +1,32 @@
+1. GrabSafetyDataPreparation.ipynb :
+
+          set pyspark environment based on the paths of your machine 
+          set paths to read data from 
+          
+          This module will give a .csv file with one observation for each trip
+
+2. GrabSafetyModelBuilding.ipynb :
+
+          set pyspark environment based on the paths of your machine 
+          set paths to read data from 
+         
+          This module will read the output of above program and build classification algorithms 
+          
+          *logistic binomial , decision tree , random forest and gradient boost algorithm
+          
+          Accuracy stands ar 77% , but there is a lot to improve in recall value [classyfing non-safe to safe trip]
+          
+3. Models.zip : 
+
+          This will have the pickle file for each of the above four models
+          
+          Copy them to the path from where you can call load these models 
+          
+4. API    : 
+
+          Flask + Swagger based API to load a trip file and get the result if drive is safe or not-safe
+          
+          trigger API by hitting "http://localhost:5000/apidocs" from your local machine
+          
+          
+Result will be find in column Prediction column , along with the confidense level by probability value
