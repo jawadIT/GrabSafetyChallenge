@@ -2,7 +2,7 @@
 
 OBJECTIVE : is to predict and classify a given trip in to safe or not-safe
 
-safe / not-safe : is with respect to driving behaviour , type of route 
+safe / not-safe : is with respect to driving behaviour , type of route and many other features that would be extracted
 
 DATA : Data is captured by accelaro and gyro meters for every second of a trip 
 
